@@ -1,0 +1,5 @@
+def helloworld():
+    print('me : hello world')
+main:
+    helloworld()
+    print('world :',dirs())

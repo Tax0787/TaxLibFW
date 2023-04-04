@@ -1,0 +1,12 @@
+web=webbrowser,open
+wait=time,sleep
+json=json,load
+shell=os,system
+cd=os,chdir
+md=os,mkdir
+rd=os,rmdir
+delet=os,remove
+dirs=os,listdir
+root=os,getcwd
+exe=PyInstaller/__main__,run
+Pyramiter=sys,argv
