@@ -1,4 +1,3 @@
-# TaxLib : All programmers X Lib maker ; In Beryllium FrameWorks
+#ExampleArcaives
 
-We Making Auto for file to Tax0787 Lib,
-This is Like-Mecro Frame Work,
+haha..., Look at [shell](./../main.py) please (please exeute.)
