@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ko" id=".my-component"><head>
+                
+                
+                        <!-- BusinessLicenseInfo - START -->
+        
+            <link href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/plugin/BusinessLicenseInfo/style.css" rel="stylesheet" type="text/css">
+
+            <script src="https://t1.kakaocdn.net/malibu_prod/wpm.js" async=""></script><script>function switchFold(entryId) {
+    var businessLayer = document.getElementById("businessInfoLayer_" + entryId);
+
+    if (businessLayer) {
+        if (businessLayer.className.indexOf("unfold_license") > 0) {
+            businessLayer.className = "business_license_layer";
+        } else {
+            businessLayer.className = "business_license_layer unfold_license";
+        }
+    }
+}
+</script>
+
+        
+        <!-- BusinessLicenseInfo - END -->
+        <!-- DaumShow - START -->
+        <style type="text/css">#daumSearchBox {
+    height: 21px;
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bg_search2_2.gif);
+    margin: 5px auto;
+    padding: 0;
+}
+
+#daumSearchBox input {
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#daumSearchBox #daumLogo {
+    width: 34px;
+    height: 21px;
+    float: left;
+    margin-right: 5px;
+    background-image: url(//i1.daumcdn.net/img-media/tistory/img/bg_search1_2_2010ci.gif);
+}
+
+#daumSearchBox #show_q {
+    background-color: transparent;
+    border: none;
+    font: 12px Gulim, Sans-serif;
+    color: #555;
+    margin-top: 4px;
+    margin-right: 15px;
+    float: left;
+}
+
+#daumSearchBox #show_btn {
+    background-image: url(//i1.daumcdn.net/imgsrc.search/search_all/show/tistory/plugin/bt_search_2.gif);
+    width: 37px;
+    height: 21px;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    text-indent: -1000em;
+}
+</style>
+
+        <!-- DaumShow - END -->
+
+<!-- System - START -->
+
+<!-- System - END -->
+
+        <!-- TistoryProfileLayer - START -->
+        <link href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/plugin/TistoryProfileLayer/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/plugin/TistoryProfileLayer/script.js"></script>
+
+        <!-- TistoryProfileLayer - END -->
+
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="format-detection" content="telephone=no">
+<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="//t1.daumcdn.net/tistory_admin/lib/lightbox/js/lightbox-v2.10.0.min.js" defer=""></script>
+<script type="text/javascript" src="//t1.daumcdn.net/tiara/js/v1/tiara.min.js"></script><meta name="referrer" content="always">
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338">
+<meta name="google-adsense-platform-domain" content="tistory.com">
+<meta name="description" content="HTML 삽입 미리보기할 수 없는 소스">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">
+<meta property="og.article.author" content="TaxosDevloper">
+<meta property="og:site_name" content="TAXOS">
+<meta property="og:title" content="TaxLibFrameWorkDocuments">
+<meta name="by" content="TaxosDevloper">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TISTORY">
+<meta name="twitter:title" content="TaxLibFrameWorkDocuments">
+<meta content="https://taxos.tistory.com/1" property="dg:plink">
+<meta name="plink">
+<meta name="title" content="TaxLibFrameWorkDocuments">
+<meta name="article:media_name" content="TAXOS">
+<meta property="article:mobile_url" content="https://taxos.tistory.com/m/entry/TaxLibFrameWorkDocuments">
+<meta property="article:pc_url" content="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">
+<meta property="article:mobile_view_url" content="https://taxos.tistory.com/m/entry/TaxLibFrameWorkDocuments">
+<meta property="article:pc_view_url" content="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">
+<meta property="article:talk_channel_view_url" content="https://taxos.tistory.com/m/entry/TaxLibFrameWorkDocuments">
+<meta property="article:pc_service_home" content="https://www.tistory.com">
+<meta property="article:mobile_service_home" content="https://www.tistory.com/m">
+<meta property="article:txid" content="6272833_1">
+<meta property="article:published_time" content="2023-04-08T15:22:17+09:00">
+<meta property="og:regDate" content="20230408032217">
+<meta property="article:modified_time" content="2023-04-08T22:47:29+09:00">
+<link rel="icon" sizes="any" href="https://t1.daumcdn.net/tistory_admin/favicon/tistory_favicon_32x32.ico">
+<link rel="icon" type="image/svg+xml" href="https://t1.daumcdn.net/tistory_admin/top_v2/bi-tistory-favicon.svg">
+<link rel="apple-touch-icon" href="https://t1.daumcdn.net/tistory_admin/favicon/tistory-apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" href="https://t1.daumcdn.net/tistory_admin/lib/lightbox/css/lightbox.min.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/font.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/content.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/uselessPMargin.css">
+<script type="text/javascript">(function() {
+    var tjQuery = jQuery.noConflict(true);
+    window.tjQuery = tjQuery;
+    window.orgjQuery = window.jQuery; window.jQuery = tjQuery;
+    window.jQuery = window.orgjQuery; delete window.orgjQuery;
+})()</script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/base.js"></script>
+<script type="text/javascript">if (!window.T) { window.T = {} }
+window.T.config = {"TOP_SSL_URL":"https://www.tistory.com","PREVIEW":false,"ROLE":"owner","PREV_PAGE":"","NEXT_PAGE":"","BLOG":{"id":6272833,"name":"taxos","title":"TAXOS","isDormancy":false},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https://www.tistory.com/auth/login/?redirectUrl=https%3A%2F%2Ftaxos.tistory.com%2Fentry%2FTaxLibFrameWorkDocuments","DEFAULT_URL":"https://taxos.tistory.com","USER":{"name":"Lee&Ntilde;ux-황제","homepage":"https://illiminati.tistory.com"},"SUBSCRIPTION":{"status":"none","isConnected":false,"isPending":false,"isWait":false,"isProcessing":false,"isNone":true},"IS_LOGIN":true,"HAS_BLOG":true,"TOP_URL":"http://www.tistory.com","JOIN_URL":"https://www.tistory.com/member/join","ROLE_GROUP":"member"};
+window.appInfo = {"domain":"tistory.com","topUrl":"https://www.tistory.com","loginUrl":"https://www.tistory.com/auth/login","logoutUrl":"https://www.tistory.com/auth/logout"};
+window.initData = {"user":{"id":6075869,"loginId":"inhuanlee@gmail.com","name":"Lee&Ntilde;ux-황제"}};
+
+window.TistoryBlog = {
+    basePath: "",
+    url: "https://taxos.tistory.com",
+    tistoryUrl: "https://taxos.tistory.com",
+    manageUrl: "https://taxos.tistory.com/manage",
+    token: "+8E92NvITmGWUQmWgRsiEpFT4BBbxOiP8ts1diS3LW+p/OMtfW2SpbHW8/hYUbG3"
+};
+var servicePath = "";
+var blogURL = "";</script>
+<script type="text/javascript" src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+                
+<meta charset="UTF-8">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<title>TaxLibFrameWorkDocuments</title>
+<link rel="stylesheet" href="https://tistory1.daumcdn.net/tistory/6272833/skin/style.css?_version_=1680960026">
+<script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+
+                
+                
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/dialog.css">
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/tistory_admin/www/style/top/font.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/postBtn.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/tistory.css">
+<link rel="canonical" href="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments","name":null},"url":"https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments","headline":"TaxLibFrameWorkDocuments","description":"HTML 삽입 미리보기할 수 없는 소스","author":{"@type":"Person","name":"TaxosDevloper","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fstatic%2Fimages%2FopenGraph%2Fopengraph.png","width":"800px","height":"800px"},"datePublished":"20230408T15:22:17","dateModified":"20230408T22:47:29","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/common.js"></script>
+
+                <style type="text/css">#DragSchLayer{display:block;position:absolute;z-index:1000;width:61px;height:31px;margin:-30px 0px 0px -5px;background:url(//search1.daumcdn.net/search/statics/common/pi/btn_drag_rect.png);cursor:pointer}             @media             only screen and (-webkit-min-device-pixel-ratio: 1.5),             only screen and (min-device-pixel-ratio: 1.5),             only screen and (min-resolution: 1.5dppx) {             #DragSchLayer{background-image:url(//search1.daumcdn.net/search/statics/common/pi/r2/btn_drag_rect.png);background-size:61px 31px}}            </style></head>
+                                <body id="tt-body-page" class="color-gray post-type-text paging-view-more">
+                
+                
+
+<div id="acc-nav">
+	<a href="#content">본문 바로가기</a>
+</div>
+<div id="wrap">
+	                                <header id="header">
+                
+                
+		<h1><a href="https://taxos.tistory.com/">TAXOS</a></h1>
+		<button type="button" class="mobile-menu"><span>메뉴</span></button>
+		<div class="menu">
+			<nav id="gnb">
+				<ul class="tt_category"><li class=""><a href="/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(4)</span> </a></li>
+</ul>
+
+			</nav>
+			<div class="social-link">
+				
+				
+				
+				
+			</div>
+			<p>POWERED BY TISTORY</p>
+		</div>
+		<div class="search">
+			
+				<label for="search" class="screen_out">블로그 내 검색</label>
+				<input id="search" type="text" name="search" value="" placeholder="검색내용을 입력하세요." onkeypress="if (event.keyCode == 13) { try {
+    window.location.href = '/search' + '/' + looseURIEncode(document.getElementsByName('search')[0].value);
+    document.getElementsByName('search')[0].value = '';
+    return false;
+} catch (e) {} }">
+					<button type="submit" onclick="try {
+    window.location.href = '/search' + '/' + looseURIEncode(document.getElementsByName('search')[0].value);
+    document.getElementsByName('search')[0].value = '';
+    return false;
+} catch (e) {}">검색</button>
+				
+		</div>
+	</header>
+	<hr>
+	<section class="container">
+		
+		<article id="content">
+			
+
+			
+
+			
+
+			
+
+			<div class="inner">
+				
+
+				            
+                
+	
+	
+		<div class="hgroup">
+			<div class="category">카테고리 없음</div>
+			<h1>TaxLibFrameWorkDocuments </h1>
+			<div class="post-meta">
+				<span class="author">TaxosDevloper</span>
+				<span class="date">2023. 4. 8. 15:22</span>
+				
+					<span><a href="https://taxos.tistory.com/manage/post/1?returnURL=https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">수정</a></span>
+					<span><a href="#" onclick="deleteEntry(1); return false;">삭제</a></span>
+				
+			</div>
+		</div>
+		<div class="entry-content">
+			            <!-- System - START -->
+
+<!-- System - END -->
+
+            <div class="tt_article_useless_p_margin contents_style">
+
+
+<meta charset="UTF-8">
+<title>TaxLibFrameWorkDocuments</title>
+<style>
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+	background-color: black;
+}
+@font-face {
+	font-family: neon;
+	src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+.nana_container {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+strong {
+	font-family: neon;
+	color: #FB4264;
+	font-size: 9vw;
+	line-height: 9vw;
+	text-shadow: 0 0 3vw #F40A35;
+}
+.flux {
+	font-family: neon;
+	color: #426DFB;
+	font-size: 9vw;
+	line-height: 9vw;
+	text-shadow: 0 0 3vw #2356FF;
+}
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+@keyframes neon {
+	0%,
+	100% {
+		text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+		color: #FED128;
+	}
+	50% {
+		text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+		color: #806914;
+	}
+}
+.flux {
+	animation: flux 2s linear infinite;
+	-moz-animation: flux 2s linear infinite;
+	-webkit-animation: flux 2s linear infinite;
+	-o-animation: flux 2s linear infinite;
+}
+@keyframes flux {
+	0%,
+	100% {
+	text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+	color: #28D7FE;
+	}
+	50% {
+		text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+		color: #146C80;
+	}
+}
+.styled {
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgba(220, 0, 0, 1);
+	background-image: linear-gradient(to top left,
+			rgba(0, 0, 0, .2),
+			rgba(0, 0, 0, .2) 30%,
+			rgba(0, 0, 0, 0));
+
+
+
+
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+	inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+.styled:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+	inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+</style>
+
+                <style type="text/css">.another_category {
+    border: 1px solid #E5E5E5;
+    padding: 10px 10px 5px;
+    margin: 10px 0;
+    clear: both;
+}
+
+.another_category h4 {
+    font-size: 12px !important;
+    margin: 0 !important;
+    border-bottom: 1px solid #E5E5E5 !important;
+    padding: 2px 0 6px !important;
+}
+
+.another_category h4 a {
+    font-weight: bold !important;
+}
+
+.another_category table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+* html .another_category table {
+    width: auto !important;
+}
+
+*:first-child + html .another_category table {
+    width: auto !important;
+}
+
+.another_category th, .another_category td {
+    padding: 0 0 4px !important;
+}
+
+.another_category th {
+    text-align: left;
+    font-size: 12px !important;
+    font-weight: normal;
+    word-break: break-all;
+    overflow: hidden;
+    line-height: 1.5;
+}
+
+.another_category td {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+}
+
+.another_category th a {
+    font-weight: normal;
+    text-decoration: none;
+    border: none !important;
+}
+
+.another_category th a.current {
+    font-weight: bold;
+    text-decoration: none !important;
+    border-bottom: 1px solid !important;
+}
+
+.another_category th span {
+    font-weight: normal;
+    text-decoration: none;
+    font: 10px Tahoma, Sans-serif;
+    border: none !important;
+}
+
+.another_category_color_gray, .another_category_color_gray h4 {
+    border-color: #E5E5E5 !important;
+}
+
+.another_category_color_gray * {
+    color: #909090 !important;
+}
+
+.another_category_color_gray th a.current {
+    border-color: #909090 !important;
+}
+
+.another_category_color_gray h4, .another_category_color_gray h4 a {
+    color: #737373 !important;
+}
+
+.another_category_color_red, .another_category_color_red h4 {
+    border-color: #F6D4D3 !important;
+}
+
+.another_category_color_red * {
+    color: #E86869 !important;
+}
+
+.another_category_color_red th a.current {
+    border-color: #E86869 !important;
+}
+
+.another_category_color_red h4, .another_category_color_red h4 a {
+    color: #ED0908 !important;
+}
+
+.another_category_color_green, .another_category_color_green h4 {
+    border-color: #CCE7C8 !important;
+}
+
+.another_category_color_green * {
+    color: #64C05B !important;
+}
+
+.another_category_color_green th a.current {
+    border-color: #64C05B !important;
+}
+
+.another_category_color_green h4, .another_category_color_green h4 a {
+    color: #3EA731 !important;
+}
+
+.another_category_color_blue, .another_category_color_blue h4 {
+    border-color: #C8DAF2 !important;
+}
+
+.another_category_color_blue * {
+    color: #477FD6 !important;
+}
+
+.another_category_color_blue th a.current {
+    border-color: #477FD6 !important;
+}
+
+.another_category_color_blue h4, .another_category_color_blue h4 a {
+    color: #1960CA !important;
+}
+
+.another_category_color_violet, .another_category_color_violet h4 {
+    border-color: #E1CEEC !important;
+}
+
+.another_category_color_violet * {
+    color: #9D64C5 !important;
+}
+
+.another_category_color_violet th a.current {
+    border-color: #9D64C5 !important;
+}
+
+.another_category_color_violet h4, .another_category_color_violet h4 a {
+    color: #7E2CB5 !important;
+}
+</style>
+
+                
+                <link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/dialog.css">
+<link rel="stylesheet" type="text/css" href="//t1.daumcdn.net/tistory_admin/www/style/top/font.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/postBtn.css">
+<link rel="stylesheet" type="text/css" href="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/style/tistory.css">
+<link rel="canonical" href="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments","name":null},"url":"https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments","headline":"TaxLibFrameWorkDocuments","description":"HTML 삽입 미리보기할 수 없는 소스","author":{"@type":"Person","name":"TaxosDevloper","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fstatic%2Fimages%2FopenGraph%2Fopengraph.png","width":"800px","height":"800px"},"datePublished":"20230408T15:22:17","dateModified":"20230408T22:47:29","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/common.js"></script>
+
+                
+
+<h1 class="neon">TaxLibFrameWorkDocuments</h1>
+<h2 class="flux" style="text-align: center;" data-ke-size="size26"><span style="color: #ffffff;">Table&nbsp;of&nbsp;Contents</span></h2>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;"><a href="https://taxos.tistory.com/entry/Subtract-TaxLibFW" rel="noopener"><b>Subtract</b> <i>TaxLibFW</i></a></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;"><a href="https://taxos.tistory.com/entry/introduction" rel="noopener"><b>introduction</b>&gt;</a></span></p><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">make <b>Module</b> with <i>TaxLibFW</i></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">make <b>Package</b> with <i>TaxLibFW</i></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">make <b>Lib</b> With <i>TaxLibFW</i></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">Use <b>intermediate</b> level Skill</span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">Make <u><i>TaxLibFW</i> to <i>TaxLibFW</i></u></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;"><b>operating principle</b> of <i>TaxLibFW</i></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;">Make <b>Updater</b> of <i>TaxLibFW</i></span></p>
+<p style="text-align: center;" data-ke-size="size16"><span style="color: #ffffff;"><u>Ending : Now <i><b>Your</b> turn, <b>Prove yourself, for </b></i><b>YOU</b></u></span></p>
+
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"글뷰","trackPage":"글뷰_보기","page":"글뷰","key":"6272833-1","customProps":{"userId":"6075869","blogId":"6272833","entryId":null,"role":"owner","trackPage":"글뷰_보기","filterTarget":false},"entry":null,"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"2693998104"}</script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/tiara.min.js"></script>
+<script type="text/javascript">(function($) {
+    $(document).ready(function() {
+        lightbox.options.fadeDuration = 200;
+        lightbox.options.resizeDuration = 200;
+        lightbox.options.wrapAround = false;
+        lightbox.options.albumLabel = "%1 / %2";
+    })
+})(tjQuery);</script>
+<div style="{margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0}"></div>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/owner.js"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/common.js"></script>
+<script type="text/javascript">window.roosevelt_params_queue = window.roosevelt_params_queue || [{channel_id: 'dk', channel_label: '{tistory}'}]</script>
+<script type="text/javascript" src="//t1.daumcdn.net/midas/rt/dk_bt/roosevelt_dk_bt.js" async="async"></script>
+<script type="text/javascript" src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/menubar.min.js"></script>
+<script>            (function (win, doc, src) {
+    win.Wpm = win.Wpm || function (name, param) {
+        win.Wpm.queue = win.Wpm.queue || [];
+        const { queue } = win.Wpm;
+        queue.push([name, param]);
+    };
+    const script = doc.createElement('script');
+    script.src = src;
+    script.async = 1;
+    const [elem] = doc.getElementsByTagName('script');
+    elem.parentNode.insertBefore(script, elem);
+})(window, document, 'https://t1.kakaocdn.net/malibu_prod/wpm.js');
+            const APP_KEY = 'd3cda7e82e6e4144bdc998b8e25f125d';
+            Wpm('appKey', APP_KEY);</script>
+
+                
+</a></div><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+            <!-- System - START -->
+
+<!-- System - END -->
+
+                    <div class="container_postbtn #post_button_group">
+  <div class="postbtn_like"><script>window.ReactionButtonType = 'reaction';
+window.ReactionApiUrl = '//taxos.tistory.com/reaction';
+window.ReactionReqBody = {
+    entryId: 1
+}</script>
+<div class="wrap_btn" id="reaction-1"><button class="btn_post uoc-icon"><div class="uoc-icon empathy_up_without_ani like_on"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">1</span></div></button></div>
+<script src="https://tistory1.daumcdn.net/tistory_admin/userblog/userblog-cd26e4cc555a2e99c5fea740fa5549c87bd629cd/static/script/reaction-button-container.min.js"></script><div class="wrap_btn wrap_btn_share"><button type="button" class="btn_post sns_btn btn_share" aria-expanded="false" data-thumbnail-url="https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png" data-title="TaxLibFrameWorkDocuments" data-description="HTML 삽입 미리보기할 수 없는 소스" data-profile-image="https://t1.daumcdn.net/tistory_admin/static/manage/images/r3/default_L.png" data-profile-name="TaxosDevloper" data-pc-url="https://taxos.tistory.com/entry/TaxLibFrameWorkDocuments" data-relative-pc-url="/entry/TaxLibFrameWorkDocuments" data-blog-title="TAXOS"><span class="ico_postbtn ico_share">공유하기</span></button>
+  <div class="layer_post" id="tistorySnsLayer" style="display: none;"><div class="bundle_post"><a href="#none" class="btn_mark" data-service="facebook"><span class="ico_sns ico_fb"></span>페이스북으로 공유</a><a href="#none" class="btn_mark" data-service="kakaostory"><span class="ico_sns ico_ks"></span>카카오스토리로 공유</a><a href="#none" class="btn_mark" data-service="twitter"><span class="ico_sns ico_tw"></span>트위터로 공유</a><a href="#none" class="btn_mark" data-service="url"><span class="ico_sns ico_url"></span>URL 복사</a><span class="ico_postbtn ico_arrbt"></span></div></div>
+</div><div class="wrap_btn"><button type="button" class="btn_post" data-entry-id="1"><span class="ico_postbtn ico_statistics">통계</span></button></div><div class="wrap_btn wrap_btn_etc" data-entry-id="1" data-entry-visibility="protected" data-category-visibility="public"><button type="button" class="btn_post btn_etc1" aria-expanded="false"><span class="ico_postbtn ico_etc">게시글 관리</span></button>
+  <div class="layer_post" id="tistoryEtcLayer" style="display: none;"></div>
+</div></div>
+</div>
+
+                    <!-- PostListinCategory - START -->
+
+<!-- PostListinCategory - END -->
+
+		</a></div><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+		
+
+		
+
+		<div id="entry1Comment">
+			<div class="comments">
+				
+					<div class="comment-list">
+						<ul>
+							            
+
+            
+						</ul>
+					</div>
+				
+
+				        <form method="post" action="/comment/add/1" onsubmit="return false" style="margin: 0">
+            
+	<div class="comment-form">
+		
+			<div class="field">
+				
+				<div class="secret">
+					<input type="checkbox" name="secret" id="secret">
+					<label for="secret" tabindex="0">Secret</label>
+				</div>
+			</div>
+		
+		<label for="comment" class="screen_out">댓글</label>
+		<textarea id="comment" name="comment" cols="" rows="4" placeholder="여러분의 소중한 댓글을 입력해주세요."></textarea>
+		<div class="submit">
+			<button type="submit" class="btn" onclick="addComment(this, 1); return false;">댓글달기</button>
+		</div>
+</div>
+
+        </form>
+			</div>
+		</div>
+<script type="text/javascript">loadedComments[1]=true;
+findFragmentAndHighlight(1);</script>
+
+
+	
+
+                
+            
+			</a></div><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+
+			
+
+			
+
+			
+
+		</a></article><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+	</a></section><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+	<hr>
+	
+	</a><footer id="footer"><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">
+		</a><p class="copyright"><a href="https://taxos.tistory.com/entry/introduction" rel="noopener">DESIGN BY </a><a href="#">TISTORY</a> <a href="https://taxos.tistory.com/manage" class="admin">관리자</a></p>
+	</footer>
+</div>
+<script src="https://tistory1.daumcdn.net/tistory/6272833/skin/images/script.js?_version_=1680960026"></script>
+
+<div class="#menubar menu_toolbar ">
+  <h2 class="screen_out">티스토리툴바</h2>
+</div>
+<div class="#menubar menu_toolbar "></div>
+<iframe id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px" src="//taxos.tistory.com/api"></iframe>
+
+                <!-- DragSearchHandler - START -->
+<script src="//search1.daumcdn.net/search/statics/common/js/g/search_dragselection.min.js"></script>
+
+<!-- DragSearchHandler - END -->
+
+        <!-- SyntaxHighlight - START -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/styles/atom-one-light.min.css" rel="stylesheet"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/delphi.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/php.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/python.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/r.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/ruby.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/scala.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/shell.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/sql.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/swift.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/typescript.min.js" defer=""></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.3/languages/vbnet.min.js" defer=""></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+        <!-- SyntaxHighlight - END -->
+
+                
+
+<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="><div class="lb-nav"><a class="lb-prev" href=""></a><a class="lb-next" href=""></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body></html>
