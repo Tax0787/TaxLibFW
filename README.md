@@ -10,4 +10,5 @@ This is Like-Mecro Frame Work,
  ohhhhhhhhhhhhhhhhh actions!!!!
 
 # News
-[News](./News.md)
+Github : [News](https://github.com/Tax0787/TaxLibFW/blob/main/news.md)
+Repo : [News](./news.md)
