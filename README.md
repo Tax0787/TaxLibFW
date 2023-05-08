@@ -8,3 +8,6 @@ This is Like-Mecro Frame Work,
 
 [make DOCS 2](https://tax0787.github.io/TaxLibFW/)
  ohhhhhhhhhhhhhhhhh actions!!!!
+
+# News
+[News](./News.md)
