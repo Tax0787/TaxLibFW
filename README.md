@@ -12,3 +12,12 @@ This is Like-Mecro Frame Work,
 # News
 Github : [News](https://github.com/Tax0787/TaxLibFW/blob/main/news.md)
 Repo : [News](./news.md)
+
+we had a bed news, I'm a student, so my development is delayed
+
+## Info
+
+[download](https://github.com/Tax0787/TaxLibFW/archive/refs/heads/main.zip)
+Or you can use It 2 template
+Or clone 2 Git
+'git clone https://github.com/Tax0787/TaxLibFW.git'
