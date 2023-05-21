@@ -21,3 +21,9 @@ we had a bed news, I'm a student, so my development is delayed
 Or you can use It 2 template
 Or clone 2 Git
 `git clone https://github.com/Tax0787/TaxLibFW.git`
+
+=== [ Foresd Released ] ===
+
+I just cry
+
+[Version 1](https://github.com/Tax0787/TaxLibFW/releases/tag/Vtest)
