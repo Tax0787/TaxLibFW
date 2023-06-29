@@ -33,6 +33,6 @@ for _ in s.split('\n'):
 if w!=('',''):dirs()
 open(y+'.py','w').write(b)
 b=f'from pkg{x} import *\n'
-b+=open(z+'.scripter').read().replace('main:','def main():')
+b+=open(z+'.scripter').read().replace('main:','def main():').replace('retu', 'return ret')
 b+='\nif __name__=="__main__":main()'
 open(z+'.py','w').write(b)
